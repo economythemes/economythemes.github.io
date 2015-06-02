@@ -1,6 +1,39 @@
 {
     "globals": {
         "title": "Economy Themes",
-        "description": "Economically Friendly Themes"
+        "description": "Economically Friendly Themes",
+        "contributors": [
+            {
+                "name":"Zach",
+                "position": "Creator",
+                "tumblr": "zaaxch"
+            }
+        ],
+        "themes": [
+            {
+                "name": "Theme One",
+                "code": "https://gist.github.com/zaaach/29f89d63d4f796287fb4",
+                "url": "http://economyt-one.tumblr.com/",
+                "description": "Simple bare bones theme with optional gradient background.",
+                "features": [
+                    "Custom text color and post background color",
+                    "4 Custom links",
+                    "Infinite scroll"
+                ],
+                "st_name": "one"
+            },
+            {
+                "name": "Theme Two",
+                "code": "https://gist.github.com/zaaach/e9618b6df8d195f11788",
+                "url": "http://economyt-two.tumblr.com/",
+                "description": "A 250px wide theme using the \"Cousine\" font.",
+                "features": [
+                    "Custom text color and post background color",
+                    "4 Custom links",
+                    "Infinite scroll"
+                ],
+                "st_name": "two"
+            }
+        ]
     }
 }

@@ -64,3 +64,52 @@ input {
 }
 
 /* end basics */
+
+.contributor {
+    height: 60px;
+    line-height: 60px;
+    background-color: #FFF;
+    display: inline-block;
+    padding: 5px;
+}
+
+.contributor img {
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+.contributor a {
+    display: inline-block;
+    padding-right: 10px;
+	text-decoration: underline;
+}
+
+.theme {
+    background-color: #FFF;
+    margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.theme img {
+	width: 100%;
+}
+
+.theme_header {
+    background-color: #120B09;
+    color: #FFF;
+    padding: 5px;
+}
+
+.theme_description {
+    padding: 5px;
+}
+
+blockquote {
+	margin: 0px 0px 0px 30px;
+}
+
+ul {
+    margin: 0px;
+    list-style-type: disc;
+}

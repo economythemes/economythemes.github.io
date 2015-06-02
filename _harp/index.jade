@@ -7,4 +7,23 @@ html(lang="en")
             .section
                 h1.mb #{title}
                 p.mb !{description}
-                   include _includes/links.jade
+            //-    include _includes/links.jade
+            .section
+                each contributor in contributors
+                    .contributor
+                        img(src="https://api.tumblr.com/v2/blog/#{contributor.tumblr}.tumblr.com/avatar/128")
+                        a(href="http://#{contributor.tumblr}.tumblr.com", target="_blank") #{contributor.name} - #{contributor.position}
+            .section.themes
+                each theme in themes
+                    .theme
+                        .theme_header
+                            span #{theme.name} - 
+                            a(href="#{theme.code}", target="_blank") Code - 
+                            a(href="#{theme.url}", target="_blank") Demo
+                        .theme_description
+                            p #{theme.description}
+                            blockquote
+                                ul
+                                    each feature in theme.features
+                                        li #{feature.toLowerCase()}
+                            img(src="/assets/images/#{theme.st_name}.png")
