@@ -1,7 +1,8 @@
 {
     "globals": {
         "title": "Economy Themes",
-        "description": "Economically Friendly Themes",
+        "description": "Economically friendly themes; powered by <a href=\"http://ruxim.co\" target=\"_blank\">Ruxim</a>.",
+        "meta_description": "Economically friendly themes; powered by Ruxim.",
         "contributors": [
             {
                 "name":"Zach",

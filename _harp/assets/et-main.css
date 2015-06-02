@@ -10,7 +10,7 @@ html, body {
 
 body {
 	background-color: #FF9969;
-	color: #120B09;
+	color: #25282A;
 	margin: 0px;
 }
 
@@ -21,7 +21,7 @@ body {
 
 a {
 	color: inherit;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
@@ -82,12 +82,11 @@ input {
 .contributor a {
     display: inline-block;
     padding-right: 10px;
-	text-decoration: underline;
 }
 
 .theme {
     background-color: #FFF;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 	font-size: 16px;
 }
 
@@ -96,7 +95,7 @@ input {
 }
 
 .theme_header {
-    background-color: #120B09;
+    background-color: #25282A;
     color: #FFF;
     padding: 5px;
 }
