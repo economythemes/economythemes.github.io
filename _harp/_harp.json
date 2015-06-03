@@ -17,7 +17,7 @@
                 "url": "http://economyt-one.tumblr.com/",
                 "description": "Simple bare bones theme with optional gradient background.",
                 "features": [
-                    "Custom text, link and post background color",
+                    "Custom text, link and post background colors",
                     "4 Custom links",
                     "Infinite scroll"
                 ],
@@ -29,7 +29,7 @@
                 "url": "http://economyt-two.tumblr.com/",
                 "description": "A 250px wide theme using the \"Cousine\" font.",
                 "features": [
-                    "Custom text, link and post background color",
+                    "Custom text, link and post background colors",
                     "4 Custom links",
                     "Infinite scroll"
                 ],
@@ -41,8 +41,7 @@
                 "url": "http://economyt-three.tumblr.com/",
                 "description": "\"Inconsolata\" based theme using standard pagination.",
                 "features": [
-                    "Custom text, link and post background color",
-                    "4 Custom links"
+                    "Custom text, link and post background colors"
                 ],
                 "st_name": "three"
             }
