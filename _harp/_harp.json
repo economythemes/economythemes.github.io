@@ -13,8 +13,8 @@
         "themes": [
             {
                 "name": "Theme One",
-                "code": "https://gist.github.com/zaaach/29f89d63d4f796287fb4",
-                "url": "http://economyt-one.tumblr.com/",
+                "code": "/theme/one/code.html",
+                "url": "/theme/one/preview.html",
                 "description": "Simple bare bones theme with optional gradient background.",
                 "features": [
                     "Custom text, link and post background colors",
@@ -25,8 +25,8 @@
             },
             {
                 "name": "Theme Two",
-                "code": "https://gist.github.com/zaaach/e9618b6df8d195f11788",
-                "url": "http://economyt-two.tumblr.com/",
+                "code": "/theme/two/code.html",
+                "url": "/theme/two/preview.html",
                 "description": "A 250px wide theme using the \"Cousine\" font.",
                 "features": [
                     "Custom text, link and post background colors",
@@ -37,8 +37,8 @@
             },
             {
                 "name": "Theme Three",
-                "code": "https://gist.github.com/zaaach/12b687cac02dff33a65d",
-                "url": "http://economyt-three.tumblr.com/",
+                "code": "/theme/three/code.html",
+                "url": "/theme/three/preview.html",
                 "description": "\"Inconsolata\" based theme using standard pagination.",
                 "features": [
                     "Custom text, link and post background colors"

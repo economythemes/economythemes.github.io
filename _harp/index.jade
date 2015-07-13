@@ -13,6 +13,11 @@ html(lang="en")
                     .contributor
                         img(src="https://api.tumblr.com/v2/blog/#{contributor.tumblr}.tumblr.com/avatar/128")
                         a(href="http://#{contributor.tumblr}.tumblr.com", target="_blank") #{contributor.name} - #{contributor.position}
+            .section
+                script(async='', src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
+                ins.adsbygoogle(style='display:block', data-ad-client='ca-pub-7504929339411519', data-ad-slot='3184357781', data-ad-format='auto')
+                script.
+                    (adsbygoogle = window.adsbygoogle || []).push({});
             .section.themes
                 each theme in themes
                     .theme
